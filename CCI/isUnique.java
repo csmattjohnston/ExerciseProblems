@@ -3,7 +3,8 @@ package cci;
 import java.util.HashSet;
 /**
 I have declared a function to return a boolean if the string has duplicate characters
-Total run time of this is O(s) where s is the length of the string
+Total run time of this is O(s) where s is the length of the string 
+Total space is O(s)
 I used a hashSet because they do not support duplicate values and so comparing the length of the set vs the string will be returned
 
  */
