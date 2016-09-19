@@ -2,8 +2,10 @@ package cci;
 
 import java.util.HashSet;
 /**
- *
- * @author Sir
+I have declared a function to return a boolean if the string has duplicate characters
+Total run time of this is O(s) where s is the length of the string
+I used a hashSet because they do not support duplicate values and so comparing the length of the set vs the string will be returned
+
  */
 public class isUnique {
 
